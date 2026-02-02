@@ -1,0 +1,95 @@
+/* Default background */
+body {
+  background-color: cornflowerblue;
+}
+
+/* Mobile: 0 - 600px */
+@media (max-width: 600px) {
+  body {
+    background-color: lightgreen;
+  }
+}
+
+/* Tablet: 601px - 1024px */
+@media (min-width: 601px) and (max-width: 1024px) {
+  body {
+    background-color: pink;
+  }
+}
+
+/* Laptop/Desktop: 1025px and above */
+@media (min-width: 1025px) {
+  body {
+    background-color: orange;
+  }
+}
+
+button {
+  padding: 20px 40px;
+  margin: 20px 20px;
+  background-color: royalblue;
+  color: white;
+  border: none;
+  border-radius: 30px;
+  font-size: 50px;
+  cursor: pointer;
+}
+
+button:hover {
+  background: rgb(97, 0, 130);
+  transform: scale(1.05);
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f2f2f2;
+}
+
+.form-container {
+  width: 350px;
+  padding: 20px;
+  margin: 50px auto;
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px gray;
+}
+
+h2 {
+  text-align: center;
+}
+
+label {
+  display: block;
+  margin-top: 15px;
+  font-weight: bold;
+}
+
+input {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  border: 1px solid #aaa;
+  border-radius: 5px;
+}
+
+button {
+  width: 100%;
+  padding: 10px;
+  margin-top: 20px;
+  border: none;
+  background-color: royalblue;
+  color: white;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: rgb(40, 70, 170);
+}
+
+.error {
+  color: red;
+  font-size: 13px;
+  height: 12px; /* keep space even if empty */
+}

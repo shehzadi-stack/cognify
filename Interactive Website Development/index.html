@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>cognifyz tasks</title>
+
+    <link rel="stylesheet" href="style.css" />
+    <!-- css -->
+
+    <script src="script.js"></script>
+    <!-- js -->
+  </head>
+
+  <body>
+    <!-----task1 ----->
+    <div class="center" style="text-align: center">
+      <h1 style="font-size: 100px; color: rgb(8, 26, 193)">
+        Welcome to my website
+      </h1>
+
+      <p style="font-size: 100px; font-weight: 200; font-style: italic">
+        Hello my viewers this is my first task level 1
+      </p>
+
+      <div id="two" style="text-align: center">
+        <a>
+          <img
+            src="https://cdn.pixabay.com/photo/2025/11/04/15/22/amsterdam-9936659_1280.jpg"
+            alt="Loading"
+          />
+        </a>
+      </div>
+
+      <div id="btn">
+        <button onclick="a()">Submit</button>
+      </div>
+      <!-- ---------------------task-3--------------------------------------------------- -->
+      <div class="fm">
+        <div class="form-container">
+          <h2>Registration Form</h2>
+
+          <form id="myForm">
+            <label for="name">Full Name</label>
+            <input type="text" id="name" placeholder="Enter your name" />
+            <p class="error" id="nameError"></p>
+
+            <label for="email">Email</label>
+            <input type="text" id="email" placeholder="Enter your email" />
+            <p class="error" id="emailError"></p>
+
+            <label for="password">Password</label>
+            <input type="password" id="password" placeholder="Enter password" />
+            <p class="error" id="passwordError"></p>
+
+            <button type="submit">Submit</button>
+          </form>
+        </div>
+      </div>
+      <h1>Easy API Integration</h1>
+
+      <button onclick="loadData()">Load API Data</button>
+
+      <div id="output"></div>
+    </div>
+  </body>
+</html>
